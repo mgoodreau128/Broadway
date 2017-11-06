@@ -12,7 +12,7 @@ ul {
   list-style-type: none;
 }
 
-nav ul a {
+a {
   color: white;
   font-size: 18px;
 }
@@ -50,11 +50,14 @@ p {
   text-align: left;
 }
 
-.footer ul li{
-  display: inline;
+.footer nav {
+  display: inline-block;
 }
 
 .footer p {
   color: white;
   font-size: 11px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
 }
